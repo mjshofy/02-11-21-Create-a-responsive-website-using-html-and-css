@@ -1,0 +1,79 @@
+@media screen and (max-width: 990px) {
+  .testimonials .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .testimonials .left {
+    width: 25%;
+    height: 450px;
+  }
+
+  .testimonials .left img {
+    position: absolute;
+  }
+
+  .testimonials .right {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testimonials .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .testimonials .left {
+    width: 0%;
+    height: auto;
+  }
+
+  .testimonials .left img {
+    display: none;
+  }
+
+  .testimonials .right {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .hero {
+    height: 70vh;
+    padding: 200px 0px 80px;
+  }
+
+  .hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero .image { width: 0%;}
+
+  .hero .image img {
+    display: none;
+  }
+
+  .hero .details { width: 90%;}
+
+  .hero .details .top {
+    margin-bottom: 60px;
+  }
+
+  .hero .details .top h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+
+  .hero .details .top p { 
+    width: 400px;
+    max-width: 100%;
+  }
+}
